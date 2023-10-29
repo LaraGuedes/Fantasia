@@ -1,0 +1,429 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#conteudo{
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+}
+
+
+#canto-esquerdo{
+    color: white;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#canto-direito{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.icones{
+    padding: 20px;
+}
+
+
+#boas-vindas{
+    width: 100%;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    backface-visibility: transparent;
+    object-fit: cover;
+}
+
+#centralizar-boas{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.titulo{
+    width: 50%;
+    color: white;
+}
+
+#servicos{
+    width: 100%;
+    height: 150%;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    backface-visibility: transparent ;
+    object-fit: cover;
+}
+
+#centralizar-servicos{
+    width: 80%;
+    
+}
+
+.titulo2{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.paragrafo{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.button-servicos{
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+@media (min-width:100px) and (max-width: 800px){
+    .logo{
+        width: 20%;
+        padding: 10px;
+    }
+
+    .icones{
+        width: 80%;
+    }
+
+    .tirar{
+        display: none;
+    }
+
+    #canto-esquerdo{
+        width: 80%;
+        font-size: 25px;
+    }
+
+    #canto-direito{
+        width: 20%;
+    }
+
+    #boas-vindas{
+        height: 160vh;
+        background-image: url("./img/Grupo\ 485-1.png");
+    }
+
+    #centralizar-boas{
+        padding-top: 290px;
+    }
+
+    .titulo{
+        font-size: 20px;
+    }
+
+    .logo2{
+        width: 20%;
+        padding: 30px;
+    }
+    
+    #servicos{
+        background-image: url("./img/Grupo\ 484.png");
+    }
+
+    #centralizar-servicos{
+        padding-top: 20%;
+        padding-left: 5%;
+    }
+
+    /*  */
+    #mordomia{
+        width: 100%;
+        height: 150%;
+
+        background-image: url("./img/Grupo\ 496.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        backface-visibility: transparent ;
+        object-fit: cover;
+    }
+
+    #centralizar-mordomia{
+        width: 90%;
+        font-size: 20px;
+
+        padding-top: 20%;
+        padding-left: 5%;
+    }
+
+    .titulo-mordomia{
+        color: white;
+        padding-bottom: 20px;
+    }
+
+    .paragrafo-mordomia{
+        color: white;
+        padding-bottom: 30px;
+    }
+
+    .button-mordomia{
+        font-size: 20px;
+        color: black;
+        background-color: white;
+        border: white;
+        padding: 20px;
+        border-radius: 50px;
+    }
+
+    #parte-superior{
+        width: 100%;
+        height: 100px;
+
+        background-color: white;
+    }
+
+    .centralizar-superior{
+        width: 50%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        
+
+        padding-top: 2%;
+        /* border: 1px solid red; */
+    }
+
+    .apoio{
+        width: 20%;
+        padding-right: 10%;
+        font-size: 25px;
+
+        color: #EB4A7B;
+    }
+
+    .apoio{
+        width: 20%;
+        padding-right: 10%;
+        font-size: 25px;
+
+        color: #EB4A7B;
+    }
+
+    #parte-inferior{
+        width: 100%;
+        height: 600px;
+        /* padding-left: 80px; */
+
+        color: white;
+        background-color: #EB4A7B;
+
+        text-align: center;
+    }
+
+    #parte-inferior h2{
+        padding-top: 20px;
+    }
+
+    #parte-inferior ul, li{
+        list-style: none;
+        
+        /* padding: 3px; */
+    }
+
+    .footer-texto{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+        padding-top: 10px;
+
+        /* border: 1px solid black; */
+    }
+
+    .footer-texto p{
+        font-size: 30px;
+    }
+
+    .footer-logo{
+        width: 20%;
+        padding: 5px;
+    }
+
+    .icones-footer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer{
+        width: 10%;
+    }
+}
+
+
+@media(min-width:800px) and (max-width: 2500px){
+
+
+    #canto-esquerdo{
+        width: 50%;
+        font-size: 15px;
+        padding-left: 40px;
+    }
+
+    #canto-direito{
+        width: 50%;
+        padding-right: 40px;
+    }
+    
+    .logo{
+        width: 8%;
+        padding: 10px;
+    }
+
+    .icones{
+        width: 5%;
+    }
+
+
+    #boas-vindas{
+        height: 180vh;
+        background-image: url("./img/Grupo\ 486.png");
+    }
+
+    #centralizar-boas{
+        padding-top: 390px;
+    }
+
+    .titulo{
+        font-size: 30px;
+    }
+
+    .logo2{
+        width: 8%;
+        padding-top: 20px;
+    }
+
+    #servicos{
+        background-image: url("./img/Interseção\ 16.png");
+    }
+
+    #centralizar-servicos{
+        width: 50%;
+        padding-top: 35%;
+        padding-left: 50px;
+    }
+
+    /*  */
+
+    #mordomia{
+        width: 100%;
+        height: 150%;
+
+        background-image: url("./img/Grupo\ 480.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        backface-visibility: transparent ;
+        object-fit: cover;
+    }
+
+    #centralizar-mordomia{
+        width: 40%;
+        font-size: 20px;
+
+        margin: 0 0 0 50%;
+        padding-top: 20%;
+    }
+
+    .titulo-mordomia{
+        color: white;
+        padding-bottom: 20px;
+    }
+
+    .paragrafo-mordomia{
+        color: white;
+        padding-bottom: 30px;
+    }
+
+    .button-mordomia{
+        font-size: 20px;
+        color: black;
+        background-color: white;
+        border: white;
+        padding: 20px;
+        border-radius: 50px;
+    }
+
+    #parte-superior{
+        width: 100%;
+        height: 100px;
+
+        background-color: white;
+    }
+
+    .centralizar-superior{
+        width: 50%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding-top: 2%;
+        /* border: 1px solid red; */
+    }
+
+    .apoio{
+        width: 20%;
+        padding-right: 10%;
+        font-size: 25px;
+
+        color: #EB4A7B;
+    }
+
+    #parte-inferior{
+        width: 95%;
+        height: 340px;
+        padding-left: 5%;
+
+        color: white;
+        background-color: #EB4A7B;
+
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    #parte-inferior h2{
+        padding-bottom: 20px;
+    }
+
+    #parte-inferior ul, li{
+        list-style: none;
+        padding: 3px;
+    }
+
+    .sobre{
+        width: 20%;
+    }
+
+    .footer-texto{
+        display: none;
+    }
+
+    .icones-footer{
+        display: none;
+    }
+}
