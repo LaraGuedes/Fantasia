@@ -189,12 +189,13 @@ header{
         width: 100%;
         height: 100px;
 
+        padding-top: 25px;
         background-color: white;
     }
 
     .centralizar-superior{
         width: 50%;
-
+        
         display: flex;
         justify-content: center;
         align-items: center;
@@ -206,20 +207,13 @@ header{
     }
 
     .apoio{
-        width: 20%;
+        width: 100%;
         padding-right: 10%;
         font-size: 25px;
 
         color: #EB4A7B;
     }
 
-    .apoio{
-        width: 20%;
-        padding-right: 10%;
-        font-size: 25px;
-
-        color: #EB4A7B;
-    }
 
     #parte-inferior{
         width: 100%;
@@ -270,6 +264,12 @@ header{
 
     .footer{
         width: 10%;
+    }
+
+    .apoio-texto{
+        font-size: 15px;
+        text-align: center;
+        color: #EB4A7B;
     }
 }
 
@@ -392,6 +392,12 @@ header{
 
         color: #EB4A7B;
     }
+
+    /* .apoio-texto{
+        font-size: 10px;
+
+        color: #EB4A7B;
+    } */
 
     #parte-inferior{
         width: 95%;
